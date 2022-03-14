@@ -41,7 +41,7 @@ class Console:
 
     def print_colored_tile(self, tile):
         '''This function makes a colored string for a single tile '''
-        colordict = {1: 'grey', 2: 'red', 3: 'yellow', 4: 'blue', 5: 'magenta'}
+        colordict = {1: 'white', 2: 'red', 3: 'yellow', 4: 'blue', 5: 'magenta'}
         return f'[{colored(tile[1], colordict[tile[0]])}]'
 
     def rack_pretty_print(self, rack):

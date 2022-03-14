@@ -1,6 +1,10 @@
 from game_engine import RummikubGame
 from console import Console
 
+# Required for colored font in Windows terminals
+import os
+os.system("")
+
 def main():
     '''This is the main gameplay loop'''
     #initialize needed classes
